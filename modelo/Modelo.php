@@ -1,6 +1,6 @@
 <?php 
 
-abstract class Modelo{
+ class Modelo{
 
 
     private static $db_host = "localhost";
@@ -14,10 +14,10 @@ abstract class Modelo{
 
 
 
-    abstract protected function create();
-	abstract protected function read();
-	abstract protected function update();
-	abstract protected function delete();
+//    abstract protected function create();
+//	abstract protected function read();
+//	abstract protected function update();
+//	abstract protected function delete();
 
 
 
