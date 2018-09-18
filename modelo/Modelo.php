@@ -1,6 +1,6 @@
 <?php 
 
-abstract class Modelo{
+ class Modelo{
 
 
     private static $db_host = "localhost";
