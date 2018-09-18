@@ -22,12 +22,13 @@ class Estudiante extends Modelo{
 
         foreach($this->row as $key => $value){
 
-            $data[$key] = $value;
+            array_push($data, $value);
         }
 
         return $data;
     }
 
+    
 
 
 

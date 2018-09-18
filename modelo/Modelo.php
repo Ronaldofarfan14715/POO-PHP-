@@ -13,12 +13,12 @@ abstract class Modelo{
     protected $row = array();
 
 
-
+    /*
     abstract protected function create();
 	abstract protected function read();
 	abstract protected function update();
 	abstract protected function delete();
-
+    */
 
 
 
@@ -57,6 +57,8 @@ abstract class Modelo{
 
 
         $this->db_close();
+
+        return array_pop($this->row);
     }
 
 

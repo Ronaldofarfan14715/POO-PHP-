@@ -1,6 +1,6 @@
 <?php 
 
-require_once('../controlador/Estudiantec.php');
+require_once('controlador/Estudiantec.php');
 
 
 
